@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:8881}
+  servlet:
+    context-path: /api/v1/reservation
+    
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ReservationDB
+
+
+#Nos configurations
+message: Hello World
