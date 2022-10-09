@@ -10,4 +10,4 @@ spring:
 
 
 #Nos configurations
-mes-configs.limitDeProduits: 4
+message: Hello World
