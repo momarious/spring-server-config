@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: library-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/libraryDB
+server:
+  port: ${PORT:1996}
+  servlet:
+    context-path: /api/v1/library
